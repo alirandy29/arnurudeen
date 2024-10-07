@@ -1,0 +1,68 @@
+test_0 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for file creation: ./lab2a.py ... ok
+test_1 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for errors running: ./lab2a.py ... ok
+test_2 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for correct shebang line: ./lab2a.py ... ok
+test_3 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for correct output: ./lab2a.py ... ok
+test_0 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() function - Test for file creation: ./lab2b.py ... ok
+test_1 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test for errors with sending input "Jon" "20": ./lab2b.py ... ok
+test_2 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test for correct shebang line: ./lab2b.py ... ok
+test_3 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jon" "20": ./lab2b.py ... ok
+test_4 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jen" "25": ./lab2b.py ... ok
+test_0 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for file creation: ./lab2c.py ... ok
+test_1 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for errors with 2 args: ./lab2c.py Jon 20 ... ok
+test_2 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for correct shebang line: ./lab2c.py ... ok
+test_3 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jon 20 ... ok
+test_4 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jen 25 ... ok
+test_0 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for file creation: ./lab2d.py ... ok
+test_1 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py ... ok
+test_2 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for correct shebang line: ./lab2d.py ... ok
+test_3 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon ... ok
+test_4 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon 20 ... ok
+test_5 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon 20 More ... ok
+test_6 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 0 args: ./lab2d.py ... FAIL
+
+======================================================================
+FAIL: test_6 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 0 args: ./lab2d.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./CheckLab2.py", line 234, in test_6
+    self.assertEqual(stdout, expected_output, msg=error_output)
+AssertionError: b"Python Version: 3.6.8 (default, Nov 14 2[135 chars] 1\n" != b'Usage: ./lab2d.py name age\n' : wrong usage message for 0 args (HINT: use if statements for catching conditions, such as 0 arguments)
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.595s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab2.py
+=================================================================
+    User login name: arnurudeen
+    Git Email: 
+    Linux system name: mtrx-node04pd.dcm.senecacollege.ca
+    Python executable: /usr/bin/python3
+    Python version:  3.6.8 (default, Nov 14 2023, 16:29:52) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+    OS Platform: linux
+    Working Directory: /home/arnurudeen/ops445/lab2
+    Start at: Sun Oct  6 22:19:03 2024
+=================================================================
